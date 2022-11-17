@@ -98,22 +98,28 @@
     <dependency>
       <groupId>com.fasterxml.jackson.core</groupId>
       <artifactId>jackson-databind</artifactId>
-      <version>2.14.0-rc2</version>
+      <version>2.14.0</version>
     </dependency>
     <dependency>
       <groupId>com.fasterxml.jackson.dataformat</groupId>
       <artifactId>jackson-dataformat-csv</artifactId>
-      <version>2.13.4</version>
+      <version>2.14.0</version>
     </dependency>
     <dependency>
       <groupId>com.google.code.gson</groupId>
       <artifactId>gson</artifactId>
       <version>2.10</version>
     </dependency>
-
-
-
-
+    <dependency>
+      <groupId>org.apache.poi</groupId>
+      <artifactId>poi-ooxml</artifactId>
+      <version>5.2.3</version>
+    </dependency>
+    <dependency>
+      <groupId>org.jsoup</groupId>
+      <artifactId>jsoup</artifactId>
+      <version>1.15.2</version>
+    </dependency>
   </dependencies>
 
 
@@ -152,7 +158,7 @@
             <manifest>
               <addClasspath>true</addClasspath>
               <classpathPrefix>library</classpathPrefix>
-              <mainClass>org.validation.shpp.Main</mainClass>
+              <mainClass>shpp.db.Main</mainClass>
             </manifest>
           </archive>
         </configuration>
