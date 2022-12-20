@@ -20,6 +20,7 @@ public class Config {
         PASS = properties.getProperty("data_base_pass");
         NAME = properties.getProperty("data_base_name");
     }
+
     public String getURL() {
         return URL;
     }
@@ -31,8 +32,6 @@ public class Config {
     public String getNAME() {
         return NAME;
     }
-
-
 
 
 }

@@ -1,7 +1,11 @@
 package shpp.db.dto;
 
+import jakarta.validation.constraints.NotNull;
+
 public class Balance {
+    @NotNull
     private Market market;
+    @NotNull
     private Goods goods;
 
 

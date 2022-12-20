@@ -18,12 +18,12 @@
             пусте можна стирати, але хай буде для наглядності-->
         </file>
     </files>
-    <dependencySets>
-        <dependencySet>
-            <outputDirectory>library</outputDirectory>
-            <excludes>
-      <exclude>${project.groupId}:${project.artifactId}:jar:*</exclude> <!--виключає джарку --> 
-            </excludes>
-        </dependencySet>
-    </dependencySets>
+    <!--   <dependencySets> -->
+    <!--   <dependencySet> -->
+    <!--      <outputDirectory>library</outputDirectory> -->
+    <!--        <excludes> -->
+    <!--   <exclude>${project.groupId}:${project.artifactId}:jar:*</exclude> -->
+    <!--        </excludes>-->
+     <!--   </dependencySet>-->
+   <!--  </dependencySets> -->
 </assembly>
